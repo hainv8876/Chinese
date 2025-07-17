@@ -9,16 +9,64 @@
 14-07:
 -
 vd:
++使用：shiyong
++
 -Hãy sử dụng cái này để test： 请使用这个试炼
 
 -Nhưng công năng này không hiển thị: 但是这个功能没显示
++生产：shangchan
 -Đây là số lượng được lấy ra từ nhật kí: 这些是日志取出的生产数量。
++服务器：fuwuji
++地址： dizhi
 -Địa chỉ IP của máy chủ 48 là bao nhiêu? 服务器48的IP地址是多少？Yǐqián 48 de fúwùqì IP dìzhǐ shì duōshǎo?
 17-07:
 报表： báo cáo-baobiao
++
 然后打印新条码： ranhou dayin xin tiaoma
-检查: 
++条码：mã vã vạch
+检查: jiancha: kiểm tra
+
 没问题： mei wenti
 删除： shanchu
   +请你删除这个
   +我删除这行了。-Tôi đã xoá dòng này rồi.
+
++dingtan-07：
+  +打印: đả ấn
+  +打印机: đả ấn cơ
+  +立即: lập tức
+  +安装: an trang(trang bị)
+  +程序： -trình tự- program: chengxu
+  +软件：-nhuyễn kiện - phần mềm, module: ruanjian
+14-07:
+-
+vd:
++使用：shiyong
++
+-Hãy sử dụng cái này để test： 请使用这个试炼
+
+-Nhưng công năng này không hiển thị: 但是这个功能没显示
++生产：shangchan
+-Đây là số lượng được lấy ra từ nhật kí: 这些是日志取出的生产数量。
++服务器：fuwuji
++地址： dizhi
+-Địa chỉ IP của máy chủ 48 là bao nhiêu? 服务器48的IP地址是多少？Yǐqián 48 de fúwùqì IP dìzhǐ shì duōshǎo?
+17-07:
+报表： báo cáo-baobiao
++
+然后打印新条码： ranhou dayin xin tiaoma
++条码：mã vã vạch
+检查: jiancha: kiểm tra
+
+没问题： mei wenti
+删除： shanchu
+  +请你删除这个
+  +我删除这行了。-Tôi đã xoá dòng này rồi.
+
++订单:dingdan
++取消:quxiao
++确定:queding
++继续:jixu
+操作： caozuo
+想取消订单吗
+点确定继续操作
