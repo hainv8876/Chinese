@@ -23,7 +23,12 @@
 | 看板     | kàn bǎn    | khán bản    | bảng theo dõi | 看板系统更新了。<br>(Kànbǎn xìtǒng gēngxīn le.)<br>Hệ thống bảng theo dõi đã được cập nhật.         |
 | 系统      |xitong      |hệ thống    |Hệ thống     
 |  模块    |mo quai      |mô khối    |  Module
-|  导出  |daochi         |đạo xuẩt  |export  
-|数据    | shuju|số liệu,data|
-|数量    |shuliang                |số lượng
-|品号    |pinhao    |Số sản phẩm
+|  导出  |daochi         |đạo xuẩt    |export  
+|数据    | shuju                      |số liệu,data|
+|数量    |shuliang                    |số lượng
+|品号    |pinhao                      |Số sản phẩm
+|继续|    |jixu                        |tiếp tục
+|需要      |xuyao                   |cần được
+|重新      |chongxin                |lại            | 这张条码需要重新打印。
+
+
