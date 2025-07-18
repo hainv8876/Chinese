@@ -22,7 +22,7 @@
 | 进度     | jìn dù     | tiến độ     | tiến độ       | 生产进度看板。<br>(Shēngchǎn jìndù kànbǎn.)<br>Bảng tiến độ sản xuất.                              |
 | 看板     | kàn bǎn    | khán bản    | bảng theo dõi | 看板系统更新了。<br>(Kànbǎn xìtǒng gēngxīn le.)<br>Hệ thống bảng theo dõi đã được cập nhật.         |
 | 系统      |xitong      |hệ thống    |Hệ thống     
-|  模块    |mo quai      |mô khối    |  Module
+|  模块    |mo kuai      |mô khối    |  Module
 |  导出  |daochi         |đạo xuẩt    |export  
 |数据    | shuju                      |số liệu,data|
 |数量    |shuliang                    |số lượng
@@ -30,5 +30,5 @@
 |继续|    |jixu                        |tiếp tục
 |需要      |xuyao                   |cần được
 |重新      |chongxin                |lại            | 这张条码需要重新打印。
-
-
+|更新       |gengxin                |update 这个软件已经更新了，生产进度看板已经更新
+|把...导出 |(bǎ...dǎochū)|: xuất...
