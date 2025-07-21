@@ -1,29 +1,30 @@
 | Từ Hán | Pinyin     | Hán Việt    | Nghĩa         | Ví dụ                                                                                       |
 | ------ | ---------- | ----------- | ------------- | ------------------------------------------------------------------------------------------- |
-| 打印     | dǎ yìn     | đả ấn       | in ấn         | 我要打印这张报表。<br>(Wǒ yào dǎyìn zhè zhāng bàobiǎo.)<br>Tôi muốn in bản báo cáo này.              |
-| 打印机    | dǎ yìn jī  | đả ấn cơ    | máy in        | 打印机不能工作。<br>(Dǎyìnjī bùnéng gōngzuò.)<br>Máy in không hoạt động.                            |
-| 安装     | ān zhuāng  | an trang    | cài đặt       | 你已经安装这个软件吗？<br>(Nǐ yǐjīng ānzhuāng zhège ruǎnjiàn ma?)<br>Bạn đã cài đặt phần mềm này chưa? |
-| 程序     | chéng xù   | trình tự    | chương trình  | 打印前请检查程序。<br>(Dǎyìn qián qǐng jiǎnchá chéngxù.)<br>Hãy kiểm tra chương trình trước khi in.  |
-| 软件     | ruǎn jiàn  | nhuyễn kiện | phần mềm      | 这软件不能使用。<br>(Zhè ruǎnjiàn bùnéng shǐyòng.)<br>Phần mềm này không thể sử dụng được.          |
-| 删除     | shān chú   | xoá trừ     | xóa           | 我已经删除这行了。<br>(Wǒ yǐjīng shānchú zhè háng le.)<br>Tôi đã xoá dòng này rồi.                   |
-| 报表     | bào biǎo   | báo biểu    | báo cáo       | 我要打印这张报表。<br>(Wǒ yào dǎyìn zhè zhāng bàobiǎo.)<br>Tôi muốn in bản báo cáo này.              |
-| 条码     | tiáo mǎ    | điều mã     | mã vạch       | 然后打印新条码。<br>(Ránhòu dǎyìn xīn tiáomǎ.)<br>Sau đó in mã vạch mới.                            |
-| 检查     | jiǎn chá   | kiểm tra    | kiểm tra      | 请检查程序。<br>(Qǐng jiǎnchá chéngxù.)<br>Hãy kiểm tra chương trình.                             |
-| 没问题    | méi wèntí  | vô vấn đề   | không vấn đề  | 打印没问题了。<br>(Dǎyìn méi wèntí le.)<br>Việc in không có vấn đề.                                |
-| 使用     | shǐ yòng   | sử dụng     | sử dụng       | 请使用这个试炼。<br>(Qǐng shǐyòng zhège shìliàn.)<br>Hãy sử dụng cái này để test.                   |
-| 服务器    | fú wù qì   | phục vụ khí | máy chủ       | 服务器48的IP地址是多少？<br>(Fúwùqì 48 de IP dìzhǐ shì duōshǎo?)<br>IP của máy chủ 48 là bao nhiêu?   |
-| 地址     | dì zhǐ     | địa chỉ     | địa chỉ       | IP地址是多少？<br>(IP dìzhǐ shì duōshǎo?)<br>Địa chỉ IP là bao nhiêu?                             |
-| 订单     | dìng dān   | định đơn    | đơn hàng      | 想取消订单吗？<br>(Xiǎng qǔxiāo dìngdān ma?)<br>Bạn muốn hủy đơn hàng không?                       |
-| 取消     | qǔ xiāo    | thủ tiêu    | huỷ           | 请取消这个订单。<br>(Qǐng qǔxiāo zhège dìngdān.)<br>Vui lòng huỷ đơn hàng này.                      |
-| 确定     | què dìng   | xác định    | xác nhận      | 点确定继续操作。<br>(Diǎn quèdìng jìxù cāozuò.)<br>Nhấn xác nhận để tiếp tục thao tác.              |
-| 继续     | jì xù      | kế tục      | tiếp tục      | 请继续打印。<br>(Qǐng jìxù dǎyìn.)<br>Hãy tiếp tục in.                                            |
-| 操作     | cāo zuò    | thao tác    | thao tác      | 系统操作出错。<br>(Xìtǒng cāozuò chūcuò.)<br>Thao tác hệ thống có lỗi.                             |
-| 生产     | shēng chǎn | sinh sản    | sản xuất      | 昨天的生产报表。<br>(Zuótiān de shēngchǎn bàobiǎo.)<br>Báo cáo sản xuất hôm qua.                    |
-| 进度     | jìn dù     | tiến độ     | tiến độ       | 生产进度看板。<br>(Shēngchǎn jìndù kànbǎn.)<br>Bảng tiến độ sản xuất.                              |
-| 看板     | kàn bǎn    | khán bản    | bảng theo dõi | 看板系统更新了。<br>(Kànbǎn xìtǒng gēngxīn le.)<br>Hệ thống bảng theo dõi đã được cập nhật.         |
-| 系统      |xitong      |hệ thống    |Hệ thống     
-|  模块    |mo kuai      |mô khối    |  Module
-|  导出  |daochi         |đạo xuẩt    |export  
+|打印     | dǎ yìn     | đả ấn       | in ấn         | 我要打印这张报表。<br>(Wǒ yào dǎyìn zhè zhāng bàobiǎo.)<br>Tôi muốn in bản báo cáo này.              |
+|打印机    | dǎ yìn jī  | đả ấn cơ    | máy in        | 打印机不能工作。<br>(Dǎyìnjī bùnéng gōngzuò.)<br>Máy in không hoạt động.                            |
+|安装     | ān zhuāng  | an trang    | cài đặt       | 你已经安装这个软件吗？<br>(Nǐ yǐjīng ānzhuāng zhège ruǎnjiàn ma?)<br>Bạn đã cài đặt phần mềm này chưa? |
+|程序     | chéng xù   | trình tự    | chương trình  | 打印前请检查程序。<br>(Dǎyìn qián qǐng jiǎnchá chéngxù.)<br>Hãy kiểm tra chương trình trước khi in.  |
+|软件     | ruǎn jiàn  | nhuyễn kiện | phần mềm      | 这软件不能使用。<br>(Zhè ruǎnjiàn bùnéng shǐyòng.)<br>Phần mềm này không thể sử dụng được.          |
+|删除     | shān chú   | xoá trừ     | xóa           | 我已经删除这行了。<br>(Wǒ yǐjīng shānchú zhè háng le.)<br>Tôi đã xoá dòng này rồi.                   |
+|报表     | bào biǎo   | báo biểu    | báo cáo       | 我要打印这张报表。<br>(Wǒ yào dǎyìn zhè zhāng bàobiǎo.)<br>Tôi muốn in bản báo cáo này.              |
+|条码     | tiáo mǎ    | điều mã     | mã vạch       | 然后打印新条码。<br>(Ránhòu dǎyìn xīn tiáomǎ.)<br>Sau đó in mã vạch mới.                            |
+|检查     | jiǎn chá   | kiểm tra    | kiểm tra      | 请检查程序。<br>(Qǐng jiǎnchá chéngxù.)<br>Hãy kiểm tra chương trình.                             |
+|没问题    | méi wèntí  | vô vấn đề   | không vấn đề  | 打印没问题了。<br>(Dǎyìn méi wèntí le.)<br>Việc in không có vấn đề.                                |
+|使用     | shǐ yòng   | sử dụng     | sử dụng       | 请使用这个试炼。<br>(Qǐng shǐyòng zhège shìliàn.)<br>Hãy sử dụng cái này để test.                   |
+|服务器    | fú wù qì   | phục vụ khí | máy chủ       | 服务器48的IP地址是多少？<br>(Fúwùqì 48 de IP dìzhǐ shì duōshǎo?)<br>IP của máy chủ 48 là bao nhiêu?   |
+|地址     | dì zhǐ     | địa chỉ     | địa chỉ       | IP地址是多少？<br>(IP dìzhǐ shì duōshǎo?)<br>Địa chỉ IP là bao nhiêu?                             |
+|订单     | dìng dān   | định đơn    | đơn hàng      | 想取消订单吗？<br>(Xiǎng qǔxiāo dìngdān ma?)<br>Bạn muốn hủy đơn hàng không?                       |
+|工单      |gongdon    |workorder    |
+|取消     | qǔ xiāo    | thủ tiêu    | huỷ           | 请取消这个订单。<br>(Qǐng qǔxiāo zhège dìngdān.)<br>Vui lòng huỷ đơn hàng này.                      |
+|确定     | què dìng   | xác định    | xác nhận      | 点确定继续操作。<br>(Diǎn quèdìng jìxù cāozuò.)<br>Nhấn xác nhận để tiếp tục thao tác.              |
+|继续     | jì xù      | kế tục      | tiếp tục      | 请继续打印。<br>(Qǐng jìxù dǎyìn.)<br>Hãy tiếp tục in.                                            |
+|操作     | cāo zuò    | thao tác    | thao tác      | 系统操作出错。<br>(Xìtǒng cāozuò chūcuò.)<br>Thao tác hệ thống có lỗi.                             |
+|生产     | shēng chǎn | sinh sản    | sản xuất      | 昨天的生产报表。<br>(Zuótiān de shēngchǎn bàobiǎo.)<br>Báo cáo sản xuất hôm qua.                    |
+|进度     | jìn dù     | tiến độ     | tiến độ       | 生产进度看板。<br>(Shēngchǎn jìndù kànbǎn.)<br>Bảng tiến độ sản xuất.                              |
+|看板     | kàn bǎn    | khán bản    | bảng theo dõi | 看板系统更新了。<br>(Kànbǎn xìtǒng gēngxīn le.)<br>Hệ thống bảng theo dõi đã được cập nhật.         |
+|系统      |xitong      |hệ thống    |Hệ thống     
+|模块    |mo kuai      |mô khối    |  Module
+|导出  |daochi         |đạo xuẩt    |export  
 |数据    | shuju                      |số liệu,data|
 |数量    |shuliang                    |số lượng
 |品号    |pinhao                      |Số sản phẩm
@@ -36,7 +37,9 @@
 |连接      |lianjie|               |kết nối
 |正确    |zhengque|                |đúng, chính xác
 |成功      |chenggong              | thành công
+-------------------------21/07-----------------------------------------------------------
 |材料      |cailiao                |tài liệu, nguyên liệu       |很多材料有数量小于零
 |接料      |jieliao                |nhập liệu                   |现在， 工人不可以接料。 hiện tại công nhân ko thể nhập liệu
 |小于； 大于； 等于；小于等于； 大于等于|xiaoyu; dayu; dengyu; dengyu; xiaoyudengyu; dayudengyu| nhỏ hơn, lớn hơn, bằng, nhỏ hơn bằng, lớn hơn bằng
+|现在仓库不可以备料| xianzai cangku bukeyi beiliao| Hiện tại -kho -không thể- chuẩn bị nguyên liệu
 
