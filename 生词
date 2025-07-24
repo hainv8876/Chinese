@@ -1,51 +1,402 @@
-| Từ Hán | Pinyin     | Hán Việt    | Nghĩa         | Ví dụ                                                                                       |
-| ------ | ---------- | ----------- | ------------- | ------------------------------------------------------------------------------------------- |
-|打印     | dǎ yìn     | đả ấn       | in ấn         | 我要打印这张报表。<br>(Wǒ yào dǎyìn zhè zhāng bàobiǎo.)<br>Tôi muốn in bản báo cáo này.              |
-|打印机    | dǎ yìn jī  | đả ấn cơ    | máy in        | 打印机不能工作。<br>(Dǎyìnjī bùnéng gōngzuò.)<br>Máy in không hoạt động.                            |
-|安装     | ān zhuāng  | an trang    | cài đặt       | 你已经安装这个软件吗？<br>(Nǐ yǐjīng ānzhuāng zhège ruǎnjiàn ma?)<br>Bạn đã cài đặt phần mềm này chưa? |
-|程序     | chéng xù   | trình tự    | chương trình  | 打印前请检查程序。<br>(Dǎyìn qián qǐng jiǎnchá chéngxù.)<br>Hãy kiểm tra chương trình trước khi in.  |
-|软件     | ruǎn jiàn  | nhuyễn kiện | phần mềm      | 这软件不能使用。<br>(Zhè ruǎnjiàn bùnéng shǐyòng.)<br>Phần mềm này không thể sử dụng được.          |
-|删除     | shān chú   | xoá trừ     | xóa           | 我已经删除这行了。<br>(Wǒ yǐjīng shānchú zhè háng le.)<br>Tôi đã xoá dòng này rồi.                   |
-|报表     | bào biǎo   | báo biểu    | báo cáo       | 我要打印这张报表。<br>(Wǒ yào dǎyìn zhè zhāng bàobiǎo.)<br>Tôi muốn in bản báo cáo này.              |
-|条码     | tiáo mǎ    | điều mã     | mã vạch       | 然后打印新条码。<br>(Ránhòu dǎyìn xīn tiáomǎ.)<br>Sau đó in mã vạch mới.                            |
-|检查     | jiǎn chá   | kiểm tra    | kiểm tra      | 请检查程序。<br>(Qǐng jiǎnchá chéngxù.)<br>Hãy kiểm tra chương trình.                             |
-|没问题    | méi wèntí  | vô vấn đề   | không vấn đề  | 打印没问题了。<br>(Dǎyìn méi wèntí le.)<br>Việc in không có vấn đề.                                |
-|使用     | shǐ yòng   | sử dụng     | sử dụng       | 请使用这个试炼。<br>(Qǐng shǐyòng zhège shìliàn.)<br>Hãy sử dụng cái này để test.                   |
-|服务器    | fú wù qì   | phục vụ khí | máy chủ       | 服务器48的IP地址是多少？<br>(Fúwùqì 48 de IP dìzhǐ shì duōshǎo?)<br>IP của máy chủ 48 là bao nhiêu?   |
-|地址     | dì zhǐ     | địa chỉ     | địa chỉ       | IP地址是多少？<br>(IP dìzhǐ shì duōshǎo?)<br>Địa chỉ IP là bao nhiêu?                             |
-|订单     | dìng dān   | định đơn    | đơn hàng      | 想取消订单吗？<br>(Xiǎng qǔxiāo dìngdān ma?)<br>Bạn muốn hủy đơn hàng không?                       |
-|工单      |gongdon    |workorder    |
-|取消     | qǔ xiāo    | thủ tiêu    | huỷ           | 请取消这个订单。<br>(Qǐng qǔxiāo zhège dìngdān.)<br>Vui lòng huỷ đơn hàng này.                      |
-|确定     | què dìng   | xác định    | xác nhận      | 点确定继续操作。<br>(Diǎn quèdìng jìxù cāozuò.)<br>Nhấn xác nhận để tiếp tục thao tác.              |
-|继续     | jì xù      | kế tục      | tiếp tục      | 请继续打印。<br>(Qǐng jìxù dǎyìn.)<br>Hãy tiếp tục in.                                            |
-|操作     | cāo zuò    | thao tác    | thao tác      | 系统操作出错。<br>(Xìtǒng cāozuò chūcuò.)<br>Thao tác hệ thống có lỗi.                             |
-|生产     | shēng chǎn | sinh sản    | sản xuất      | 昨天的生产报表。<br>(Zuótiān de shēngchǎn bàobiǎo.)<br>Báo cáo sản xuất hôm qua.                    |
-|进度     | jìn dù     | tiến độ     | tiến độ       | 生产进度看板。<br>(Shēngchǎn jìndù kànbǎn.)<br>Bảng tiến độ sản xuất.                              |
-|看板     | kàn bǎn    | khán bản    | bảng theo dõi | 看板系统更新了。<br>(Kànbǎn xìtǒng gēngxīn le.)<br>Hệ thống bảng theo dõi đã được cập nhật.         |
-|系统     |xitong      |hệ thống    |Hệ thống     
-|模块     |mo kuai      |mô khối    |  Module
-|导出     |daochi         |đạo xuẩt    |export  
-|数据     | shuju                      |số liệu,data|
-|数量     |shuliang                    |số lượng
-|品号     |pinhao                      |Số sản phẩm
-|继续|    |jixu                        |tiếp tục
-|需要     |xuyao                   |cần được
-|重新     |chongxin                |lại            | 这张条码需要重新打印。
-|更新     |gengxin                |update 这个软件已经更新了，生产进度看板已经更新
-|把...导出 |(bǎ...dǎochū)|: xuất...
-|产品      |chanpin                |sản phẩm
-|连接      |lianjie|               |kết nối
-|正确      |zhengque|                |đúng, chính xác
-|成功      |chenggong              | thành công
+| Chữ Hán | Pinyin        | Hán Việt        | Nghĩa tiếng Việt       |
+| ------- | ------------- | --------------- | ---------------------- |
+| 打印      | dǎyìn         | đả ấn           | in ấn                  |
+| 打印机     | dǎyìnjī       | đả ấn cơ        | máy in                 |
+| 安装      | ānzhuāng      | an trang        | cài đặt                |
+| 程序      | chéngxù       | trình tự        | chương trình           |
+| 软件      | ruǎnjiàn      | nhu nhuyễn kiện | phần mềm               |
+| 删除      | shānchú       | sáp trừ         | xóa bỏ                 |
+| 报表      | bàobiǎo       | báo biểu        | báo cáo                |
+| 条码      | tiáomǎ        | điều mã         | mã vạch                |
+| 检查      | jiǎnchá       | kiểm tra        | kiểm tra               |
+| 没问题     | méi wèntí     | một vấn đề      | không có vấn đề        |
+| 使用      | shǐyòng       | sử dụng         | sử dụng                |
+| 服务器     | fúwùqì        | phục vụ khí     | máy chủ                |
+| 地址      | dìzhǐ         | địa chỉ         | địa chỉ                |
+| 订单      | dìngdān       | định đơn        | đơn hàng               |
+| 工单      | gōngdān       | công đơn        | phiếu công việc        |
+| 取消      | qǔxiāo        | thủ tiêu        | hủy bỏ                 |
+| 确定      | quèdìng       | xác định        | xác nhận               |
+| 继续      | jìxù          | kế tục          | tiếp tục               |
+| 操作      | cāozuò        | thao tác        | thao tác               |
+| 生产      | shēngchǎn     | sinh sản        | sản xuất               |
+| 进度      | jìndù         | tiến độ         | tiến độ                |
+| 看板      | kànbǎn        | khán bản        | bảng theo dõi (Kanban) |
+| 系统      | xìtǒng        | hệ thống        | hệ thống               |
+| 模块      | mókuài        | mô khối         | mô-đun / module        |
+| 导出      | dǎochū        | đạo xuất        | xuất (dữ liệu)         |
+| 数据      | shùjù         | dữ liệu         | dữ liệu                |
+| 数量      | shùliàng      | số lượng        | số lượng               |
+| 品号      | pǐnhào        | phẩm hiệu       | mã sản phẩm            |
+| 需要      | xūyào         | nhu yếu         | cần                    |
+| 重新      | chóngxīn      | trùng tân       | lại, làm lại           |
+| 更新      | gēngxīn       | canh tân        | cập nhật               |
+| 把...导出  | bǎ...dǎochū   | bả...đạo xuất   | xuất...                |
+| 产品      | chǎnpǐn       | sản phẩm        | sản phẩm               |
+| 连接      | liánjiē       | liên tiếp       | kết nối                |
+| 正确      | zhèngquè      | chính xác       | đúng                   |
+| 成功      | chénggōng     | thành công      | thành công             |
+| 材料      | cáiliào       | tài liệu        | nguyên vật liệu        |
+| 接料      | jiēliào       | tiếp liệu       | tiếp nhận nguyên liệu  |
+| 小于      | xiǎoyú        | tiểu vu         | nhỏ hơn                |
+| 大于      | dàyú          | đại vu          | lớn hơn                |
+| 等于      | děngyú        | đẳng vu         | bằng                   |
+| 小于等于    | xiǎoyú děngyú | tiểu vu đẳng vu | nhỏ hơn hoặc bằng      |
+| 大于等于    | dàyú děngyú   | đại vu đẳng vu  | lớn hơn hoặc bằng      |
+| 提供      | tígōng        | đề cung         | cung cấp               |
+| 变更      | biàngēng      | biến canh       | thay đổi               |
 
--------------------------21/07-----------------------------------------------------------
-|材料      |cailiao                |tài liệu, nguyên liệu       |很多材料有数量小于零
-|接料      |jieliao                |nhập liệu                   |现在， 工人不可以接料。 hiện tại công nhân ko thể nhập liệu
-|小于； 大于； 等于；小于等于； 大于等于|xiaoyu; dayu; dengyu; dengyu; xiaoyudengyu; dayudengyu| nhỏ hơn, lớn hơn, bằng, nhỏ hơn bằng, lớn hơn bằng
-|现在仓库不可以备料  | xianzai cangku bukeyi beiliao| Hiện tại -kho -không thể- chuẩn bị nguyên liệu
-|我们看到问题        |women kandao wenti| chúng tôi đã nhìn ra vấn đề
-|我会检查一下原因      |wo hui jiancha yixia yuanyin| nguyen nhan
-|提供|tigong|thí gông| cung cấp
-|变更|biangeng|biến canh|biến đổi vd: 只变更你提供的料件/zhibiangengnideliaojian/ chỉ thay đổi những nguyên liệu mà bạn cung cấp
-|重新|chongxin|trùng tân| lặp lại
 
+
+我要打印这张报表。/ Wǒ yào dǎyìn zhè zhāng bàobiǎo. / Tôi muốn in báo cáo này.
+
+打印机不能工作。/ Dǎyìnjī bùnéng gōngzuò. / Máy in không hoạt động.
+
+你已经安装这个软件吗？/ Nǐ yǐjīng ānzhuāng zhège ruǎnjiàn ma? / Bạn đã cài phần mềm này chưa?
+
+打印前请检查程序。/ Dǎyìn qián qǐng jiǎnchá chéngxù. / Vui lòng kiểm tra chương trình trước khi in.
+
+这软件不能使用。/ Zhè ruǎnjiàn bùnéng shǐyòng. / Phần mềm này không thể sử dụng.
+
+我已经删除这行了。/ Wǒ yǐjīng shānchú zhè háng le. / Tôi đã xóa dòng này rồi.
+
+然后打印新条码。/ Ránhòu dǎyìn xīn tiáomǎ. / Sau đó in mã vạch mới.
+
+请检查程序。/ Qǐng jiǎnchá chéngxù. / Vui lòng kiểm tra chương trình.
+
+打印没问题了。/ Dǎyìn méi wèntí le. / Việc in không có vấn đề gì nữa.
+
+请使用这个试炼。/ Qǐng shǐyòng zhège shìliàn. / Vui lòng sử dụng thử nghiệm này.
+
+服务器48的IP地址是多少？/ Fúwùqì 48 de IP dìzhǐ shì duōshǎo? / Địa chỉ IP của máy chủ 48 là bao nhiêu?
+
+IP地址是多少？/ IP dìzhǐ shì duōshǎo? / Địa chỉ IP là bao nhiêu?
+
+想取消订单吗？/ Xiǎng qǔxiāo dìngdān ma? / Bạn muốn hủy đơn hàng không?
+
+请取消这个订单。/ Qǐng qǔxiāo zhège dìngdān. / Vui lòng hủy đơn hàng này.
+
+点确定继续操作。/ Diǎn quèdìng jìxù cāozuò. / Nhấn xác nhận để tiếp tục thao tác.
+
+请继续打印。/ Qǐng jìxù dǎyìn. / Vui lòng tiếp tục in.
+
+系统操作出错。/ Xìtǒng cāozuò chūcuò. / Thao tác hệ thống bị lỗi.
+
+昨天的生产报表。/ Zuótiān de shēngchǎn bàobiǎo. / Báo cáo sản xuất ngày hôm qua.
+
+生产进度看板。/ Shēngchǎn jìndù kànbǎn. / Bảng tiến độ sản xuất.
+
+看板系统更新了。/ Kànbǎn xìtǒng gēngxīn le. / Hệ thống bảng hiển thị đã cập nhật.
+
+这张条码需要重新打印。/ Zhè zhāng tiáomǎ xūyào chóngxīn dǎyìn. / Mã vạch này cần được in lại.
+
+这个软件已经更新了，生产进度看板已经更新。/ Zhège ruǎnjiàn yǐjīng gēngxīn le, shēngchǎn jìndù kànbǎn yǐjīng gēngxīn. / Phần mềm đã cập nhật, bảng tiến độ cũng đã cập nhật.
+
+现在仓库不可以备料。/ Xiànzài cāngkù bù kěyǐ bèiliào. / Hiện tại kho không thể chuẩn bị nguyên liệu.
+
+我们看到问题。/ Wǒmen kàndào wèntí. / Chúng tôi đã phát hiện vấn đề.
+
+我会检查一下原因。/ Wǒ huì jiǎnchá yíxià yuányīn. / Tôi sẽ kiểm tra nguyên nhân.
+
+很多材料有数量小于零。/ Hěn duō cáiliào yǒu shùliàng xiǎoyú líng. / Nhiều nguyên liệu có số lượng nhỏ hơn 0.
+
+现在，工人不可以接料。/ Xiànzài, gōngrén bù kěyǐ jiēliào. / Hiện tại công nhân không thể nhập liệu.
+
+只变更你提供的料件。/ Zhǐ biàngēng nǐ tígōng de liàojiàn. / Chỉ thay đổi nguyên liệu bạn cung cấp.
+
+请重新安装这个程序。/ Qǐng chóngxīn ānzhuāng zhège chéngxù. / Vui lòng cài lại chương trình này.
+
+软件启动失败，请检查。/ Ruǎnjiàn qǐdòng shībài, qǐng jiǎnchá. / Phần mềm khởi động thất bại, vui lòng kiểm tra.
+
+数据已经导出到Excel。/ Shùjù yǐjīng dǎochū dào Excel. / Dữ liệu đã được xuất ra Excel.
+
+系统更新成功。/ Xìtǒng gēngxīn chénggōng. / Hệ thống cập nhật thành công.
+
+请提供订单号码。/ Qǐng tígōng dìngdān hàomǎ. / Vui lòng cung cấp mã đơn hàng.
+
+订单已被取消。/ Dìngdān yǐ bèi qǔxiāo. / Đơn hàng đã bị huỷ.
+
+你可以继续操作了。/ Nǐ kěyǐ jìxù cāozuò le. / Bạn có thể tiếp tục thao tác rồi.
+
+报表还没导出。/ Bàobiǎo hái méi dǎochū. / Báo cáo vẫn chưa được xuất.
+
+这个条码是错的。/ Zhège tiáomǎ shì cuò de. / Mã vạch này bị sai.
+
+工单已经完成。/ Gōngdān yǐjīng wánchéng. / Phiếu công việc đã hoàn thành.
+
+我们需要变更模块配置。/ Wǒmen xūyào biàngēng mókuài pèizhì. / Chúng tôi cần thay đổi cấu hình module.
+
+服务器连接失败。/ Fúwùqì liánjiē shībài. / Kết nối máy chủ thất bại.
+
+地址填写不正确。/ Dìzhǐ tiánxiě bù zhèngquè. / Địa chỉ điền không chính xác.
+
+检查网络连接。/ Jiǎnchá wǎngluò liánjiē. / Kiểm tra kết nối mạng.
+
+数据有误，请重试。/ Shùjù yǒu wù, qǐng chóngshì. / Dữ liệu sai, vui lòng thử lại.
+
+请导出昨天的生产报表。/ Qǐng dǎochū zuótiān de shēngchǎn bàobiǎo. / Vui lòng xuất báo cáo sản xuất hôm qua.
+
+材料库存不足。/ Cáiliào kùcún bùzú. / Tồn kho nguyên liệu không đủ.
+
+数量已经更新为100。/ Shùliàng yǐjīng gēngxīn wéi yìbǎi. / Số lượng đã được cập nhật thành 100.
+
+接料时请扫描条码。/ Jiēliào shí qǐng sǎomiáo tiáomǎ. / Khi nhập liệu vui lòng quét mã vạch.
+
+变更只影响提供的品号。/ Biàngēng zhǐ yǐngxiǎng tígōng de pǐnhào. / Việc thay đổi chỉ ảnh hưởng mã sản phẩm được cung cấp.
+打印机已经连接成功。/ Dǎyìnjī yǐjīng liánjiē chénggōng. / Máy in đã kết nối thành công.
+
+这个程序运行很慢。/ Zhège chéngxù yùnxíng hěn màn. / Chương trình này chạy rất chậm.
+
+请删除多余的数据。/ Qǐng shānchú duōyú de shùjù. / Vui lòng xóa dữ liệu dư thừa.
+
+工单编号是多少？/ Gōngdān biānhào shì duōshǎo? / Mã phiếu công việc là bao nhiêu?
+
+请扫描这张条码。/ Qǐng sǎomiáo zhè zhāng tiáomǎ. / Vui lòng quét mã vạch này.
+
+系统已自动保存。/ Xìtǒng yǐ zìdòng bǎocún. / Hệ thống đã tự động lưu.
+
+你确定要删除吗？/ Nǐ quèdìng yào shānchú ma? / Bạn chắc chắn muốn xóa không?
+
+我们正在检查服务器状态。/ Wǒmen zhèngzài jiǎnchá fúwùqì zhuàngtài. / Chúng tôi đang kiểm tra trạng thái máy chủ.
+
+订单已经导入系统。/ Dìngdān yǐjīng dǎorù xìtǒng. / Đơn hàng đã được nhập vào hệ thống.
+
+请确认品号和数量。/ Qǐng quèrèn pǐnhào hé shùliàng. / Vui lòng xác nhận mã sản phẩm và số lượng.
+
+这不是最新的报表。/ Zhè bú shì zuì xīn de bàobiǎo. / Đây không phải là báo cáo mới nhất.
+
+请检查看板上的进度。/ Qǐng jiǎnchá kànbǎn shàng de jìndù. / Vui lòng kiểm tra tiến độ trên bảng quản lý.
+
+昨天没有接收到材料。/ Zuótiān méiyǒu jiēdào cáiliào. / Hôm qua không nhận được nguyên liệu.
+
+服务器目前无法使用。/ Fúwùqì mùqián wúfǎ shǐyòng. / Máy chủ hiện không thể sử dụng.
+
+请点击按钮开始操作。/ Qǐng diǎnjī ànniǔ kāishǐ cāozuò. / Vui lòng nhấn nút để bắt đầu thao tác.
+
+报表导出成功，文件已保存。/ Bàobiǎo dǎochū chénggōng, wénjiàn yǐ bǎocún. / Xuất báo cáo thành công, tệp đã được lưu.
+
+数量小于零无法提交。/ Shùliàng xiǎoyú líng wúfǎ tíjiāo. / Số lượng nhỏ hơn 0 không thể gửi đi.
+
+系统检测到异常数据。/ Xìtǒng jiǎncè dào yìcháng shùjù. / Hệ thống phát hiện dữ liệu bất thường.
+
+当前版本不支持此功能。/ Dāngqián bǎnběn bù zhīchí cǐ gōngnéng. / Phiên bản hiện tại không hỗ trợ chức năng này.
+
+请稍等，正在加载模块。/ Qǐng shāoděng, zhèngzài jiāzài mókuài. / Vui lòng chờ, đang tải module.
+
+请检查服务器的网络连接。/ Qǐng jiǎnchá fúwùqì de wǎngluò liánjiē. / Vui lòng kiểm tra kết nối mạng của máy chủ.
+
+模块加载失败，请重新尝试。/ Mókuài jiāzài shībài, qǐng chóngxīn chángshì. / Tải module thất bại, vui lòng thử lại.
+
+请把这个报表导出为PDF。/ Qǐng bǎ zhège bàobiǎo dǎochū wèi PDF. / Vui lòng xuất báo cáo này thành PDF.
+
+系统响应很慢，请耐心等待。/ Xìtǒng xiǎngyìng hěn màn, qǐng nàixīn děngdài. / Hệ thống phản hồi chậm, vui lòng kiên nhẫn chờ.
+
+请不要重复点击“确定”。/ Qǐng bú yào chóngfù diǎnjī “quèdìng”. / Vui lòng không nhấn “xác nhận” nhiều lần.
+
+服务器重启中，请稍等。/ Fúwùqì chóngqǐ zhōng, qǐng shāoděng. / Máy chủ đang khởi động lại, vui lòng chờ.
+
+这笔订单已经发货了。/ Zhè bǐ dìngdān yǐjīng fāhuò le. / Đơn hàng này đã được giao đi.
+
+报表中有错误的数量。/ Bàobiǎo zhōng yǒu cuòwù de shùliàng. / Trong báo cáo có số lượng sai.
+
+请根据看板更新生产进度。/ Qǐng gēnjù kànbǎn gēngxīn shēngchǎn jìndù. / Vui lòng cập nhật tiến độ sản xuất theo bảng.
+
+所有程序都必须重新验证。/ Suǒyǒu chéngxù dōu bìxū chóngxīn yànzhèng. / Tất cả chương trình đều cần xác minh lại.
+
+材料还没有送到仓库。/ Cáiliào hái méiyǒu sòng dào cāngkù. / Nguyên liệu vẫn chưa được chuyển đến kho.
+
+请核对条码与品号。/ Qǐng héduì tiáomǎ yǔ pǐnhào. / Vui lòng đối chiếu mã vạch với mã sản phẩm.
+
+当前订单数量不符。/ Dāngqián dìngdān shùliàng bùfú. / Số lượng đơn hàng hiện tại không khớp.
+
+系统检测到重复订单。/ Xìtǒng jiǎncè dào chóngfù dìngdān. / Hệ thống phát hiện đơn hàng trùng lặp.
+
+请勿关闭程序，数据正在保存。/ Qǐng wù guānbì chéngxù, shùjù zhèngzài bǎocún. / Đừng tắt chương trình, dữ liệu đang được lưu.
+
+软件版本不兼容模块。/ Ruǎnjiàn bǎnběn bù jiānróng mókuài. / Phiên bản phần mềm không tương thích với module.
+
+请用正确的格式输入地址。/ Qǐng yòng zhèngquè de géshì shūrù dìzhǐ. / Vui lòng nhập địa chỉ đúng định dạng.
+
+数据导出完成，共计100条记录。/ Shùjù dǎochū wánchéng, gòngjì yìbǎi tiáo jìlù. / Dữ liệu đã xuất xong, tổng cộng 100 bản ghi.
+
+请尽快处理这张工单。/ Qǐng jǐnkuài chǔlǐ zhè zhāng gōngdān. / Vui lòng xử lý phiếu công việc này càng sớm càng tốt.
+
+请通知仓库准备材料。/ Qǐng tōngzhī cāngkù zhǔnbèi cáiliào. / Vui lòng thông báo kho chuẩn bị nguyên liệu.
+今天要生产100个产品。/ Jīntiān yào shēngchǎn yìbǎi gè chǎnpǐn. / Hôm nay cần sản xuất 100 sản phẩm.
+
+请先检查系统设置。/ Qǐng xiān jiǎnchá xìtǒng shèzhì. / Vui lòng kiểm tra cài đặt hệ thống trước.
+
+这个模块需要更新。/ Zhège mókuài xūyào gēngxīn. / Module này cần được cập nhật.
+
+软件提示：连接超时。/ Ruǎnjiàn tíshì: liánjiē chāoshí. / Phần mềm thông báo: kết nối hết thời gian.
+
+请登录服务器后台。/ Qǐng dēnglù fúwùqì hòutái. / Vui lòng đăng nhập vào hệ thống quản trị máy chủ.
+
+导出的数据请及时保存。/ Dǎochū de shùjù qǐng jíshí bǎocún. / Dữ liệu đã xuất xin vui lòng lưu lại kịp thời.
+
+请勿修改系统文件。/ Qǐng wù xiūgǎi xìtǒng wénjiàn. / Vui lòng không chỉnh sửa tệp hệ thống.
+
+工单编号填写错误。/ Gōngdān biānhào tiánxiě cuòwù. / Mã công việc điền sai.
+
+请确认生产数量是否正确。/ Qǐng quèrèn shēngchǎn shùliàng shìfǒu zhèngquè. / Vui lòng xác nhận số lượng sản xuất có đúng không.
+
+当前系统处于维护状态。/ Dāngqián xìtǒng chǔyú wéihù zhuàngtài. / Hệ thống hiện đang trong trạng thái bảo trì.
+
+服务器温度过高。/ Fúwùqì wēndù guògāo. / Nhiệt độ máy chủ quá cao.
+
+这张报表已经审核通过。/ Zhè zhāng bàobiǎo yǐjīng shěnhé tōngguò. / Báo cáo này đã được duyệt.
+
+打印任务正在排队。/ Dǎyìn rènwù zhèngzài páiduì. / Nhiệm vụ in đang chờ trong hàng đợi.
+
+仓库已收到所有材料。/ Cāngkù yǐ shōudào suǒyǒu cáiliào. / Kho đã nhận toàn bộ nguyên vật liệu.
+
+请检查条码是否重复。/ Qǐng jiǎnchá tiáomǎ shìfǒu chóngfù. / Vui lòng kiểm tra mã vạch có bị trùng không.
+
+系统时间与服务器不同步。/ Xìtǒng shíjiān yǔ fúwùqì bù tóngbù. / Thời gian hệ thống không đồng bộ với máy chủ.
+
+报表格式不符合要求。/ Bàobiǎo géshì bù fúhé yāoqiú. / Định dạng báo cáo không đúng yêu cầu.
+
+模块权限不足。/ Mókuài quánxiàn bùzú. / Không đủ quyền truy cập module.
+
+材料信息已更新。/ Cáiliào xìnxī yǐ gēngxīn. / Thông tin nguyên liệu đã được cập nhật.
+
+请等待程序响应。/ Qǐng děngdài chéngxù xiǎngyìng. / Vui lòng chờ chương trình phản hồi.
+
+订单状态已变更。/ Dìngdān zhuàngtài yǐ biàngēng. / Trạng thái đơn hàng đã thay đổi.
+
+当前版本已过期。/ Dāngqián bǎnběn yǐ guòqī. / Phiên bản hiện tại đã hết hạn.
+
+仓库无法接收此订单。/ Cāngkù wúfǎ jiēshōu cǐ dìngdān. / Kho không thể nhận đơn hàng này.
+
+请补全品号信息。/ Qǐng bǔquán pǐnhào xìnxī. / Vui lòng điền đầy đủ thông tin mã sản phẩm.
+
+所有程序运行正常。/ Suǒyǒu chéngxù yùnxíng zhèngcháng. / Tất cả chương trình đang chạy bình thường.
+
+本次更新修复了多个问题。/ Běncì gēngxīn xiūfù le duō gè wèntí. / Lần cập nhật này đã sửa nhiều lỗi.
+
+数据导入失败，请检查格式。/ Shùjù dǎorù shībài, qǐng jiǎnchá géshì. / Nhập dữ liệu thất bại, vui lòng kiểm tra định dạng.
+
+请在系统中登记工单。/ Qǐng zài xìtǒng zhōng dēngjì gōngdān. / Vui lòng đăng ký công việc trong hệ thống.
+
+系统提示库存不足。/ Xìtǒng tíshì kùcún bùzú. / Hệ thống thông báo kho không đủ hàng.
+
+数据库正在备份。/ Shùjùkù zhèngzài bèifèn. / Cơ sở dữ liệu đang được sao lưu.
+
+请尽快回复此消息。/ Qǐng jǐnkuài huífù cǐ xiāoxī. / Vui lòng phản hồi tin nhắn này càng sớm càng tốt.
+
+打印预览无法打开。/ Dǎyìn yùlǎn wúfǎ dǎkāi. / Không thể mở bản xem trước khi in.
+
+所有变更已生效。/ Suǒyǒu biàngēng yǐ shēngxiào. / Tất cả thay đổi đã có hiệu lực.
+
+请在5分钟内完成操作。/ Qǐng zài wǔ fēnzhōng nèi wánchéng cāozuò. / Vui lòng hoàn tất thao tác trong 5 phút.
+
+模块加载中，请稍后。/ Mókuài jiāzài zhōng, qǐng shāohòu. / Module đang được tải, vui lòng đợi.
+
+请检查数据完整性。/ Qǐng jiǎnchá shùjù wánzhěng xìng. / Vui lòng kiểm tra tính toàn vẹn của dữ liệu.
+
+程序需要管理员权限。/ Chéngxù xūyào guǎnlǐyuán quánxiàn. / Chương trình yêu cầu quyền quản trị.
+
+当前用户无权限导出。/ Dāngqián yònghù wú quánxiàn dǎochū. / Người dùng hiện tại không có quyền xuất dữ liệu.
+
+请及时检查库存数量。/ Qǐng jíshí jiǎnchá kùcún shùliàng. / Vui lòng kiểm tra số lượng tồn kho kịp thời.
+
+报表保存成功。/ Bàobiǎo bǎocún chénggōng. / Báo cáo đã lưu thành công.
+系统已启动成功。/ Xìtǒng yǐ qǐdòng chénggōng. / Hệ thống đã khởi động thành công.
+
+当前连接状态正常。/ Dāngqián liánjiē zhuàngtài zhèngcháng. / Trạng thái kết nối hiện tại bình thường.
+
+数据传输中断，请重试。/ Shùjù chuánshū zhōngduàn, qǐng chóngshì. / Truyền dữ liệu bị gián đoạn, vui lòng thử lại.
+
+此操作不可撤销。/ Cǐ cāozuò bùkě chèxiāo. / Thao tác này không thể hoàn tác.
+
+正在加载程序，请等待。/ Zhèngzài jiāzài chéngxù, qǐng děngdài. / Đang tải chương trình, xin chờ.
+
+服务器无法响应请求。/ Fúwùqì wúfǎ xiǎngyìng qǐngqiú. / Máy chủ không thể phản hồi yêu cầu.
+
+请检查网络连接。/ Qǐng jiǎnchá wǎngluò liánjiē. / Vui lòng kiểm tra kết nối mạng.
+
+操作成功，数据已保存。/ Cāozuò chénggōng, shùjù yǐ bǎocún. / Thao tác thành công, dữ liệu đã được lưu.
+
+此条码无效。/ Cǐ tiáomǎ wúxiào. / Mã vạch này không hợp lệ.
+
+订单已发货。/ Dìngdān yǐ fāhuò. / Đơn hàng đã được giao.
+
+打印机缺纸。/ Dǎyìnjī quē zhǐ. / Máy in hết giấy.
+
+任务已完成。/ Rènwù yǐ wánchéng. / Nhiệm vụ đã hoàn thành.
+
+请添加备注信息。/ Qǐng tiānjiā bèizhù xìnxī. / Vui lòng thêm ghi chú.
+
+当前页面已锁定。/ Dāngqián yèmiàn yǐ suǒdìng. / Trang hiện tại đã bị khóa.
+
+修改密码成功。/ Xiūgǎi mìmǎ chénggōng. / Đổi mật khẩu thành công.
+
+账号已被停用。/ Zhànghào yǐ bèi tíngyòng. / Tài khoản đã bị vô hiệu hóa.
+
+请重新登录系统。/ Qǐng chóngxīn dēnglù xìtǒng. / Vui lòng đăng nhập lại hệ thống.
+
+上传文件失败。/ Shàngchuán wénjiàn shībài. / Tải tệp lên thất bại.
+
+已成功导入数据。/ Yǐ chénggōng dǎorù shùjù. / Nhập dữ liệu thành công.
+
+材料编号无效。/ Cáiliào biānhào wúxiào. / Mã nguyên vật liệu không hợp lệ.
+
+系统将自动关闭。/ Xìtǒng jiāng zìdòng guānbì. / Hệ thống sẽ tự động tắt.
+
+此操作需要管理员权限。/ Cǐ cāozuò xūyào guǎnlǐyuán quánxiàn. / Thao tác này yêu cầu quyền quản trị.
+
+品号未找到。/ Pǐnhào wèi zhǎodào. / Không tìm thấy mã sản phẩm.
+
+模块已禁用。/ Mókuài yǐ jìnyòng. / Module đã bị vô hiệu hóa.
+
+当前系统处于只读状态。/ Dāngqián xìtǒng chǔyú zhǐ dú zhuàngtài. / Hệ thống hiện ở trạng thái chỉ đọc.
+
+请勿重复提交。/ Qǐng wù chóngfù tíjiāo. / Vui lòng không gửi lặp lại.
+
+上传的文件格式错误。/ Shàngchuán de wénjiàn géshì cuòwù. / Định dạng tệp tải lên sai.
+
+打印完成，请取走文件。/ Dǎyìn wánchéng, qǐng qǔzǒu wénjiàn. / In xong, vui lòng lấy tài liệu.
+
+进度已达到90%。/ Jìndù yǐ dádào jiǔshí bǎifēn. / Tiến độ đã đạt 90%.
+
+所有设备运行正常。/ Suǒyǒu shèbèi yùnxíng zhèngcháng. / Tất cả thiết bị đang hoạt động bình thường.
+
+请确认删除该程序。/ Qǐng quèrèn shānchú gāi chéngxù. / Vui lòng xác nhận xóa chương trình này.
+
+当前操作无效。/ Dāngqián cāozuò wúxiào. / Thao tác hiện tại không hợp lệ.
+
+数据已被锁定。/ Shùjù yǐ bèi suǒdìng. / Dữ liệu đã bị khóa.
+
+系统错误，请联系管理员。/ Xìtǒng cuòwù, qǐng liánxì guǎnlǐyuán. / Lỗi hệ thống, vui lòng liên hệ quản trị viên.
+
+所有任务已分配。/ Suǒyǒu rènwù yǐ fēnpèi. / Tất cả nhiệm vụ đã được phân công.
+
+工单已完成审批流程。/ Gōngdān yǐ wánchéng shěnpī liúchéng. / Công việc đã hoàn tất quy trình phê duyệt.
+
+此功能暂未开放。/ Cǐ gōngnéng zàn wèi kāifàng. / Tính năng này hiện chưa mở.
+
+程序运行异常。/ Chéngxù yùnxíng yìcháng. / Chương trình chạy bất thường.
+
+数据同步中，请稍后。/ Shùjù tóngbù zhōng, qǐng shāohòu. / Đang đồng bộ dữ liệu, vui lòng đợi.
+
+订单已取消。/ Dìngdān yǐ qǔxiāo. / Đơn hàng đã bị hủy.
+
+请等待管理员处理。/ Qǐng děngdài guǎnlǐyuán chǔlǐ. / Vui lòng đợi quản trị viên xử lý.
+
+无法连接服务器。/ Wúfǎ liánjiē fúwùqì. / Không thể kết nối máy chủ.
+
+打印任务被中断。/ Dǎyìn rènwù bèi zhōngduàn. / Nhiệm vụ in bị gián đoạn.
+
+当前任务已暂停。/ Dāngqián rènwù yǐ zàntíng. / Nhiệm vụ hiện tại đã tạm dừng.
+
+用户权限不足。/ Yònghù quánxiàn bùzú. / Quyền của người dùng không đủ.
+
+程序正在响应中。/ Chéngxù zhèngzài xiǎngyìng zhōng. / Chương trình đang phản hồi.
+
+请提供产品序号。/ Qǐng tígōng chǎnpǐn xùhào. / Vui lòng cung cấp số seri sản phẩm.
+
+材料规格不符合标准。/ Cáiliào guīgé bù fúhé biāozhǔn. / Quy cách nguyên liệu không đạt chuẩn.
+
+当前信息不可更改。/ Dāngqián xìnxī bùkě gēnggǎi. / Thông tin hiện tại không thể chỉnh sửa.
+
+导出已完成。/ Dǎochū yǐ wánchéng. / Xuất dữ liệu đã hoàn tất.
