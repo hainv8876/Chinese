@@ -48,7 +48,51 @@
 | 变更      | biàngēng      | biến canh       | thay đổi               |
 
 *Newsentence
-
+/ 打印      / dǎyìn         	/ in ấn                  /
+/ 打印机     / dǎyìnjī      	 / máy in                 /
+/ 安装      / ānzhuāng      	/ cài đặt                /
+/ 程序      / chéngxù       	/ chương trình           /
+/ 软件      / ruǎnjiàn      	/ phần mềm               /
+/ 删除      / shānchú       	/ xóa bỏ                 /
+/ 报表      / bàobiǎo       	/ báo cáo                /
+/ 条码      / tiáomǎ        	/ mã vạch                /
+/ 检查      / jiǎnchá       	/ kiểm tra               /
+/ 没问题     / méi wèntí    	 / không có vấn đề        /
+/ 使用      / shǐyòng       	/ sử dụng                /
+/ 服务器     / fúwùqì       	 / máy chủ                /
+/ 地址      / dìzhǐ         	/ địa chỉ                /
+/ 订单      / dìngdān       	/ đơn hàng               /
+/ 工单      / gōngdān       	/ phiếu công việc        /
+/ 取消      / qǔxiāo        	/ hủy bỏ                 /
+/ 确定      / quèdìng       	/ xác nhận               /
+/ 继续      / jìxù          	/ tiếp tục               /
+/ 操作      / cāozuò        	/ thao tác               /
+/ 生产      / shēngchǎn     	/ sản xuất               /
+/ 进度      / jìndù         	/ tiến độ                /
+/ 看板      / kànbǎn        	/ bảng theo dõi (Kanban) /
+/ 系统      / xìtǒng        	/ hệ thống               /
+/ 模块      / mókuài        	/ mô-đun / module        /
+/ 导出      / dǎochū        	/ xuất (dữ liệu)         /
+/ 数据      / shùjù         	/ dữ liệu                /
+/ 数量      / shùliàng      	/ số lượng               /
+/ 品号      / pǐnhào        	/ mã sản phẩm            /
+/ 需要      / xūyào         	/ cần                    /
+/ 重新      / chóngxīn      	/ lại, làm lại           /
+/ 更新      / gēngxīn       	/ cập nhật               /
+/ 把...导出  / bǎ...dǎochū  	 / xuất...                /
+/ 产品      / chǎnpǐn       	/ sản phẩm               /
+/ 连接      / liánjiē       	/ kết nối                /
+/ 正确      / zhèngquè      	/ đúng                   /
+/ 成功      / chénggōng     	/ thành công             /
+/ 材料      / cáiliào       	/ nguyên vật liệu        /
+/ 接料      / jiēliào       	/ tiếp nhận nguyên liệu  /
+/ 小于      / xiǎoyú        	/ nhỏ hơn                /
+/ 大于      / dàyú          	/ lớn hơn                /
+/ 等于      / děngyú        	/ bằng                   /
+/ 小于等于    / xiǎoyú děngyú	 / nhỏ hơn hoặc bằng      /
+/ 大于等于    / dàyú děngyú  	 / lớn hơn hoặc bằng      /
+/ 提供      / tígōng        	/ cung cấp               /
+/ 变更      / biàngēng      	/ thay đổi               /
 我要打印这张报表。/ Wǒ yào dǎyìn zhè zhāng bàobiǎo. / Tôi muốn in báo cáo này.
 
 打印机不能工作。/ Dǎyìnjī bùnéng gōngzuò. / Máy in không hoạt động.
